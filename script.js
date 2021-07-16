@@ -22,9 +22,9 @@ function calcular() {
     let qtdTotalCerveja = cervejaPP(duracao) * adultos;
     let qtdTotalBebida = bebidaPP(duracao) * adultos + (bebidaPP(duracao) / 2 * criancas);
 
-    resultado.innerHTML = `<p>${qtdTotalCarne / 1000} Kg de carne
-    <p>${Math.ceil(qtdTotalCerveja / 350)} Latas de cerveja
-    <p>${Math.ceil(qtdTotalBebida / 2000)} Pet(s) de 2 litros de bebida`
+    resultado.innerHTML = `<p>${qtdTotalCarne / 1000} Kg de carne</p>
+    <p>${Math.ceil(qtdTotalCerveja / 350)} Latas de cerveja</p>
+    <p>${Math.ceil(qtdTotalBebida / 2000)} Pet(s) de 2 litros de bebida</p>`
 }
 
 // Passo 4 - Criar as funções baseada na duração do churrasco que vai ser utilizada na função principal calcular() do passo 3
